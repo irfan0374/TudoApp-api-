@@ -1,0 +1,54 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/*
+*.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environments
+env/
+venv/
+
+# Django static and media files
+/static/
+/media/
+
+# Local settings
+local_settings.py
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Logs
+*.log
+*.pot
+
+# Django specific ignore
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+local_settings.py
+
+# IDE settings (optional)
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
